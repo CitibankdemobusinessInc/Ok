@@ -1,8 +1,8 @@
 {
     "explorer.autoRevealExclude": {
-        "**/bower_components": false
+        "**/bower_components": true
     },
-    "explorer.excludeGitIgnore": false,
+    "explorer.excludeGitIgnore": true,
     "explorer.fileNesting.enabled": true,
     "editor.comments.ignoreEmptyLines": false,
     "workbench.editor.enablePreviewFromCodeNavigation": true,
@@ -13,8 +13,8 @@
     ],
     "editor.columnSelection": true,
     "screencastMode.keyboardOptions": {
-        "showCommandGroups": truep
-    },
-    "gitlens.ai.experimental.openai.model": "gpt-4-32k",
+        "showCommandGroups": true
+    }
+    "gitlens.ai.experimental.openai.model":"gpt-3.5-turbo", "gpt-4-32k",
     "jupyter.variableExplorerExclude": ""
 }
